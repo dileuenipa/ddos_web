@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 SITE = "https://api.zyte.com/v1/extract"
-APIKEY = "f8eb46aa8a984b2c858678bd7b943c67"
+APIKEY = "a7b54ff175ca491b9f4a38e5e06054f7"
 sema = Semaphore(5)
 
 HEADERS = {
