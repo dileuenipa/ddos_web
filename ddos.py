@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template_string, jsonify
 from threading import Thread, Semaphore
-import requests
+from curl_cffi import requests
 import json
 from base64 import b64decode
 import os
